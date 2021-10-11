@@ -9,8 +9,8 @@ composer require mahmut/coupon-generator
 ```php
 $option = (new \Mahmut\CouponGenerator\Option\Option())
     ->setLength(10) // default is 10
-    ->setPrefix('ABC-') // coupon prefix. ABC-XXXXX
-    ->setSuffix('-XYZ') // coupon suffix XXXX-XYZ
+    //->setPrefix('ABC-') // coupon prefix. ABC-XXXXX
+    //->setSuffix('-XYZ') // coupon suffix XXXX-XYZ
     ->setUseLetters(true) // use letters. default is true
     ->setUseNumbers(true) // use numbers. default is true
     ->setUseSymbols(false) // use symbols. default is false

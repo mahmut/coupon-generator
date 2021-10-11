@@ -14,8 +14,8 @@ $option = (new \Mahmut\CouponGenerator\Option\Option())
     ->setUseLetters(true) // use letters. default is true
     ->setUseNumbers(true) // use numbers. default is true
     ->setUseSymbols(false) // use symbols. default is false
-    ->setUseMixedCase(false) // use mixed cases. default is false
-    ->setMask('XXXXXX'); // coupon mask. length is ignores
+    ->setUseMixedCase(false); // use mixed cases. default is false
+    // ->setMask('XXXXXX'); // coupon mask. length is ignores. default is null
 
 $coupons = (new \Mahmut\CouponGenerator\CouponGenerator($option))
     ->setNumberOfCoupons(100) // number of coupons to be created

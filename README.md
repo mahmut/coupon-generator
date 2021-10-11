@@ -18,7 +18,7 @@ $option = (new \Mahmut\CouponGenerator\Option\Option())
     // ->setMask('XXXXXX'); // coupon mask. length is ignores. default is null
 
 $coupons = (new \Mahmut\CouponGenerator\CouponGenerator($option))
-    ->setNumberOfCoupons(100) // number of coupons to be created
+    ->setNumberOfCoupons(10) // number of coupons to be created
     ->generate()
     ->getCoupons();
 ```
